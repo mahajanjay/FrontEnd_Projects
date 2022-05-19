@@ -1,0 +1,96 @@
+/* *, *::after, *::before{
+    box-sizing: border-box;
+} */
+
+body{
+    color: #00003e;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    padding: 5px;
+    height: 50px;
+    width: 150px;
+    margin: 5px;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    color: #ee0707 !important;
+    margin-right: 30px;
+}
+
+li{
+    display: inline-block;
+    height: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 40px;
+    font-size: larger;
+}  
+
+header{
+    background-image: url("casper.jpg");
+    height: 534px;
+    padding-left: 50px;
+    padding-top: 100px;
+    box-sizing: border-box; 
+    font-size: x-large;
+    display: block;
+}
+
+.black{
+    color: black;
+}
+
+header a.button{
+    background-color: brown;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 0.25rem;
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-text{
+    color: white;
+    padding-top: 20px;
+    font-size: x-small;
+}
+
+.testimonials{
+    text-align: center;
+}
+
+div h3{
+    background-color: #00003e;
+    color: white;
+    display: inline-block;
+    width: 1400px;
+    padding: 15px;
+    font-size: small;
+}
+
+.reviews{
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+    background-color: #D3D3D3;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #191970;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    padding: 15px;
+}
